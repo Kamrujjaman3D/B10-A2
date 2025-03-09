@@ -1,0 +1,29 @@
+@media screen and (max-width: 576px) {
+  section {
+    max-width: 95%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .banner-container {
+    flex-direction: column;
+  }
+  .banner-txt-container {
+    margin-bottom: 50px;
+  }
+  .info1 {
+    top: 30px;
+    right: -5px;
+  }
+  .info2 {
+    bottom: 280px;
+    left: 10px;
+  }
+
+  .hambergur-menu {
+    display: block;
+    color: #fff;
+  }
+  .nav-right {
+    display: none;
+  }
+}
