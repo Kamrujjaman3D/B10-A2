@@ -27,7 +27,6 @@ section {
   text-align: left;
 }
 .description {
-  /* body-text */
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
   font-weight: 400;
@@ -43,7 +42,7 @@ section {
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
   font-weight: 600;
-  width: 250px;
+  width: 260px;
   cursor: pointer;
 }
 .btn:hover {
@@ -54,6 +53,7 @@ section {
   background: rgb(210, 83, 64);
   padding: 18px 50px;
 }
+
 .title {
   color: #ffffff;
   font-size: 3rem;

@@ -15,6 +15,11 @@
   .banner-txt-container {
     margin-bottom: 50px;
   }
+  .btn-container button {
+    width: 220px;
+    font-size: 1rem;
+    padding: 16px 35px;
+  }
   .content {
     gap: 50px;
   }
