@@ -5,7 +5,8 @@
     margin-bottom: 60px;
   }
   .banner-container,
-  .habit-img-container {
+  .habit-img-container,
+  .run-container {
     flex-direction: column;
   }
   .banner-txt-container {
@@ -29,5 +30,26 @@
   }
   .habit-img-child {
     margin-top: 10px;
+  }
+  .run-txt-container {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .run-txt-container .btn-primary {
+    width: 80%;
+    margin-bottom: 0px;
+  }
+  .run-img-container {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .team-img-container {
+    grid-template-areas:
+      'a'
+      'b'
+      'c'
+      'd'
+      'e'
+      'f';
   }
 }
