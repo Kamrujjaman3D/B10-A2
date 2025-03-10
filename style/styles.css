@@ -7,6 +7,8 @@
 }
 body {
   font-family: 'Inter', sans-serif;
+  background: rgba(0, 0, 0, 0.976);
+  color: #fff;
 }
 section {
   max-width: 1440px;
@@ -16,7 +18,7 @@ section {
 .display-flex {
   display: flex;
 }
-.title {
+.nav-title {
   color: #e6533c;
   font-size: 2.25rem;
   font-weight: 800;
@@ -28,8 +30,8 @@ section {
   font-size: 1rem;
   font-weight: 400;
   text-align: left;
-  margin-top: 28px;
-  margin-bottom: 28px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .btn {
   border-radius: 42px;
@@ -38,10 +40,16 @@ section {
   color: rgb(255, 255, 255);
   font-size: 1.1rem;
   font-weight: 600;
-  text-align: left;
+  width: 250px;
 }
 .btn-primary {
   background: rgb(230, 83, 60);
+  padding: 18px 50px;
+}
+.title {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 900;
 }
 /* header section related style */
 .header {
@@ -134,10 +142,10 @@ section {
   color: #fff;
   font-weight: bold;
 }
-.circle {
-  width: 30px;
-  height: 30px;
-  background-color: red;
+.yt-icon {
+  font-size: 1.5rem;
+  color: red;
+  margin-right: 10px;
 }
 .info1 {
   top: 100px;
@@ -147,4 +155,53 @@ section {
 .info2 {
   bottom: 10%;
   left: -25%;
+}
+/* habit section related style */
+.habit-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.habit-header p,
+.habit-img-child p {
+  text-align: center;
+  margin-top: 20px;
+}
+.habit-img-container {
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.habit-img-child {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.img-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 22px;
+}
+.habit-img-child img {
+  width: 100%;
+  border: 5px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+}
+/* run section related style */
+.run-container {
+  gap: 160px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  padding: 40px 35px;
+}
+.run-txt-container {
+  width: 50%;
+}
+.run-img-container {
+  width: 40%;
+}
+.run-img-container img {
+  width: 100%;
+  border-radius: 18px;
 }
