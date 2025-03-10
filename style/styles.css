@@ -126,6 +126,7 @@ section {
 .banner-img-container img {
   width: 100%;
   border-radius: 10px;
+  object-fit: cover;
 }
 .info {
   position: absolute;
@@ -195,6 +196,57 @@ section {
   width: 100%;
   border: 5px solid rgba(0, 0, 0, 0);
   border-radius: 50%;
+  object-fit: cover;
+}
+/* unique section related style */
+.tip-card-head p,
+.tip-card-head .title,
+.unique-btn {
+  text-align: center;
+}
+.tip-cards {
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.tip-card {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 350px;
+  box-shadow: 0 2px 5px rgba(242, 240, 240, 0.485);
+  margin-top: 40px;
+}
+.card-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.tip-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.tip-card h3 {
+  margin-top: 22px;
+  font-size: 1.25rem;
+}
+.tip-card p {
+  color: rgba(255, 255, 255, 0.664);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  line-height: 24px;
+}
+.unique-btn {
+  margin-top: 30px;
+}
+.unique-btn .btn {
+  width: 350px;
 }
 /* bmi section related style */
 .bmi-container {
@@ -261,6 +313,7 @@ section {
 .run-img-container img {
   width: 100%;
   border-radius: 18px;
+  object-fit: cover;
 }
 /* our team section related style */
 .team-img-container {
@@ -286,6 +339,7 @@ section {
   width: 100%;
   height: 350px;
   border-radius: 18px;
+  object-fit: cover;
 }
 .details p {
   margin: 0;

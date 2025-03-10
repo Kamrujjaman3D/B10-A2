@@ -8,7 +8,8 @@
   .habit-img-container,
   .run-container,
   .footer-container,
-  .content {
+  .content,
+  .tip-cards {
     flex-direction: column;
   }
   .banner-txt-container {
